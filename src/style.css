@@ -24,3 +24,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: var(--tipografia-texto);
+  color: #3C3C3C;
+}
