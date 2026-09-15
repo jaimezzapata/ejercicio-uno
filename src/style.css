@@ -159,3 +159,55 @@ body {
   line-height: 1.6;
   color: var(--texto-gris);
 }
+
+/* === SECCIÓN GALERÍA (100% × 50% de main = 40vh) === */
+.galeria {
+  width: 100%;
+  height: 50%;
+  background-color: var(--blanco);
+  display: flex;
+  gap: 10px;
+  padding: 2.5vh 22px;
+}
+
+/* === TARJETAS DE GALERÍA === */
+.tarjeta {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--blanco);
+  border: 1px solid var(--gris-borde);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.tarjeta__imagen {
+  flex: 0 0 57%;
+  width: 100%;
+  min-height: 0;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid var(--gris-borde);
+}
+
+.tarjeta__info {
+  flex: 1 1 auto;
+  min-height: 0;
+  background-color: var(--hueso);
+  padding: 18px 20px;
+}
+
+.tarjeta__titulo {
+  font-family: var(--tipografia-titulos);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--azul-oscuro);
+  margin-bottom: 8px;
+}
+
+.tarjeta__texto {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--texto-gris);
+}
