@@ -33,3 +33,39 @@ body {
   font-family: var(--tipografia-texto);
   color: #3C3C3C;
 }
+
+/* === CABECERA (header: 100% × 10vh) === */
+.cabecera {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--azul-oscuro);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px 0 32px;
+}
+
+.cabecera__logo {
+  font-family: var(--tipografia-titulos);
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--hueso);
+}
+
+.cabecera__nav {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+.cabecera__enlace {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--hueso);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.cabecera__enlace:hover {
+  color: var(--acento-claro);
+}
