@@ -211,3 +211,42 @@ body {
   line-height: 1.6;
   color: var(--texto-gris);
 }
+
+/* === PIE DE PÁGINA (footer: 100% × 10vh) === */
+.pie {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--azul-oscuro);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.pie__copyright {
+  font-size: 14px;
+  color: var(--blanco);
+}
+
+.pie__nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pie__enlace {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--blanco);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.pie__enlace:hover {
+  color: var(--acento-claro);
+}
+
+.pie__separador {
+  font-size: 14px;
+  color: var(--blanco);
+}
