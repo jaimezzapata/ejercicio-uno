@@ -69,3 +69,41 @@ body {
 .cabecera__enlace:hover {
   color: var(--acento-claro);
 }
+
+/* === MENÚ LATERAL (aside: 20% × 80vh) === */
+.menu-lateral {
+  width: 20%;
+  height: 80vh;
+  background-color: var(--gris-claro);
+  border-right: 3px solid var(--gris-linea);
+  padding: 6vh 20px 0 26px;
+}
+
+.menu-lateral__titulo {
+  font-family: var(--tipografia-titulos);
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--azul-oscuro);
+  margin-bottom: 3vh;
+}
+
+.menu-lateral__lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.menu-lateral__enlace {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--texto-gris);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.menu-lateral__enlace:hover {
+  color: var(--acento);
+}
