@@ -1,0 +1,26 @@
+/* ============================================================
+   EJERCICIO UNO — EcoViajes
+   Maquetación exclusiva con BoxModel + FlexBox
+   ============================================================ */
+
+/* === VARIABLES Y PALETA (extraída de Diseño Final.png) === */
+:root {
+  --azul-oscuro:   #0F172A;
+  --blanco:        #FFFFFF;
+  --hueso:         #F8FAFC;
+  --gris-claro:    #F1F5F9;
+  --gris-borde:    #E2E8F0;
+  --gris-linea:    #CBD5E1;
+  --texto-gris:    #475569;
+  --acento-claro:  #78C0EF;
+  --acento:        #0F7CC6;
+  --tipografia-titulos: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --tipografia-texto:   'Montserrat', 'Segoe UI', Arial, sans-serif;
+}
+
+/* === RESET Y BASE === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
