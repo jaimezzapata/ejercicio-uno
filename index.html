@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoViajes | Descubre el Mundo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
 
+  <header class="cabecera">
+    <h1 class="cabecera__logo">EcoViajes</h1>
+    <nav class="cabecera__nav">
+      <a href="#" class="cabecera__enlace">Inicio</a>
+      <a href="#" class="cabecera__enlace">Destinos</a>
+      <a href="#" class="cabecera__enlace">Contacto</a>
+    </nav>
+  </header>
+
+  <aside class="menu-lateral">
+    <h2 class="menu-lateral__titulo">Categorías</h2>
+    <nav class="menu-lateral__nav">
+      <ul class="menu-lateral__lista">
+        <li class="menu-lateral__item"><a href="#" class="menu-lateral__enlace">Playas y Costas</a></li>
+        <li class="menu-lateral__item"><a href="#" class="menu-lateral__enlace">Montañas</a></li>
+        <li class="menu-lateral__item"><a href="#" class="menu-lateral__enlace">Selvas y Bosques</a></li>
+        <li class="menu-lateral__item"><a href="#" class="menu-lateral__enlace">Turismo Urbano</a></li>
+        <li class="menu-lateral__item"><a href="#" class="menu-lateral__enlace">Ofertas</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="contenido">
+
+    <section class="hero">
+      <figure class="hero__figura">
+        <img src="src/images/photo-1414235077428-338989a2e8c0.avif"
+             alt="Fotografía del destino destacado" class="hero__imagen">
+      </figure>
+      <div class="hero__texto">
+        <h2 class="hero__titulo">Descubre el Mundo</h2>
+        <p class="hero__parrafo">Aventuras inolvidables te esperan a un solo clic de distancia.</p>
+      </div>
+    </section>
+
+    <section class="galeria" aria-label="Destinos destacados">
+      <article class="tarjeta">
+        <img src="src/images/photo-1514326640560-7d063ef2aed5.avif"
+             alt="Fotografía de París" class="tarjeta__imagen">
+        <div class="tarjeta__info">
+          <h3 class="tarjeta__titulo">París</h3>
+          <p class="tarjeta__texto">La ciudad de la luz y el amor.</p>
+        </div>
+      </article>
+      <article class="tarjeta">
+        <img src="src/images/photo-1514326640560-7d063ef2aed6.avif"
+             alt="Fotografía de Tokio" class="tarjeta__imagen">
+        <div class="tarjeta__info">
+          <h3 class="tarjeta__titulo">Tokio</h3>
+          <p class="tarjeta__texto">Tecnología, tradición y cultura.</p>
+        </div>
+      </article>
+      <article class="tarjeta">
+        <img src="src/images/photo-1510812431401-41d2bd2722f3.avif"
+             alt="Fotografía de Nueva York" class="tarjeta__imagen">
+        <div class="tarjeta__info">
+          <h3 class="tarjeta__titulo">Nueva York</h3>
+          <p class="tarjeta__texto">La ciudad que nunca duerme.</p>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <p class="pie__copyright">© 2026 EcoViajes. Todos los derechos reservados.</p>
+    <nav class="pie__nav" aria-label="Enlaces legales">
+      <a href="#" class="pie__enlace">Aviso Legal</a>
+      <span class="pie__separador">|</span>
+      <a href="#" class="pie__enlace">Privacidad</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
