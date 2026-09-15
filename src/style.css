@@ -6,9 +6,11 @@ body{
 }
 
 .EcoViajes {
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    color: white;
-    background-color: ;
+    width:100%;
+   height: 10%;
+}
+
+.barralateral{
+    width: 20%;
+    height 80%
 }
