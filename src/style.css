@@ -50,5 +50,7 @@ body{
 }
 
 PlayasyCostos{
-
+     top: 10px;
+     position: absolute;
+     
 }
