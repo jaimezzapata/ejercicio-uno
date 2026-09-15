@@ -1,16 +1,26 @@
 body{
   width: 100%;
   height: 100vh;
- display: flex; 
- flex-wrap: wrap;
+ display: flex; flex-wrap: wrap;
 }
 
 .EcoViajes {
     width:100%;
    height: 10%;
+   padding: 40px
+   background-color: ;
+}
+
+.Navegadores{
+   left: 300px;
+   position: absolute;
+   top: 300px;
+
 }
 
 .barralateral{
     width: 20%;
-    height 80%
+    height: 80vh;
+
+
 }
