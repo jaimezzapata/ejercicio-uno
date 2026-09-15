@@ -7,23 +7,34 @@ body{
 .navegador1 {
     left: 1220px;
     position: absolute;
-    top: 20px;
+    top: 25px;
     background-color: white;
 }
 
 .navegador2 {
     left: 1310px;
     position: absolute;
-    top: 20px;
+    top: 25px;
 }
 
 
 .navegador3 {
     left: 1418px;
     position: absolute;
-    top: 20px;
+    top: 25px;
 }
 
 .EcoViajes {
-    
+    top: 2px;
+    position: absolute;
+    left: 40px;
+    color: white;
+
+}
+
+.EcoViajes {
+       background-color: darkblue;
+       height: 80px;
+       width: 1489px;
+       right: 0px;
 }
