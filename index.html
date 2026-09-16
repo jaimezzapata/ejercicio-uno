@@ -5,42 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/src/style.css">
 </head>
 
 <body>
     <header class="header">
-        <h1>Header</h1>
+        <div class="contenedor-header contenedor-header-titulo">
+            <h1>Ecoviajes</h1>
+        </div>
+        <div class="contenedor-header contenedor-header-accesos">
+            <nav class="accesos-header">
+                <a href="#inicio">Inicio</a><a href="#destinos">Destinos</a><a href="contacto">Contacto</a>
+            </nav>
+        </div>
     </header>
 
     <aside class="aside">
+        <h2>Categorias</h2>
         <nav>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Playas y Costas</a></li>
+                <li><a href="#">Montañas</a></li>
+                <li><a href="#">Selvas y bosques</a></li>
+                <li><a href="#">Ofertas</a></li>
             </ul>
         </nav>
     </aside>
     <main class="main">
-         <section class="image-section">
+        <section class="image-section">
             <div class="image-box">
-                <div class=""> <img src="/src/images/lancha.avif" alt=""></div>
-                </di>
-                <div class="image-text">
-                    <h2> Descubre el Mundo </h2>
-                    <p>
-                        Aventuras inolvidables te esperan a un solo clic de distacia.
-
-                        <section class="gallery-section">
-                            <article class="gallery - item"> <img src="/src/images/ciudad.avif" alt=""></articl>
-                                <article class="gallery - item"> <img src="/src/images/puente.avif" alt=""> </articl>
-                                    <article class="gallery - item"> <img src="/src/images/edificios.avif" alt=""> </articl>
-                                    </sección>
+                <div class="image-placeholder">
+                    <img src="/src/images/lancha.avif" alt="Lancha">
+                </div>
+            </div>
+            <div class="image-text">
+                <h2>Descubre el Mundo</h2>
+                <p>Aventuras inolvidables te esperan a un solo clic de distancia.</p>
+            </div>
+        </section>
+        <section class="gallery-section">
+            <article class="gallery-item">
+                <img src="/src/images/ciudad.avif" alt="Ciudad">
+            </article>
+            <article class="gallery-item">
+                <img src="/src/images/puente.avif" alt="Puente">
+            </article>
+            <article class="gallery-item">
+                <img src="/src/images/edificios.avif" alt="Edificios">
+            </article>
+        </section>
     </main>
     <footer class="footer">
-    <p>2026 Ecoviajes.todos los derechos reservados</p>
-  </footer>
+        <p>2026 Ecoviajes.todos los derechos reservados</p>
+    </footer>
 </body>
 
-</html>
+</html> 
